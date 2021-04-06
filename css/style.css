@@ -1,0 +1,35 @@
+body {
+    background: rgb(183, 131, 194);
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-links a:hover {
+    text-decoration: underline;
+    color: rgb(149, 60, 167);
+    opacity: 0.9;
+}
+
+.img-fluid {
+    display: block;
+    margin: 30px auto;
+}
+
+@media (max-width: 768px) {
+    .about-paragraph {
+        text-align: center;
+    }
+}
