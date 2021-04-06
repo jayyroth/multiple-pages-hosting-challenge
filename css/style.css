@@ -12,12 +12,14 @@ h1 {
     justify-content: space-evenly;
 }
 
-.navigation-links a {
+.navigation-links a,
+.contact-address {
     text-decoration: none;
     color: black;
 }
 
-.navigation-links a:hover {
+.navigation-links a:hover,
+.contact-address:hover {
     text-decoration: underline;
     color: rgb(149, 60, 167);
     opacity: 0.9;
